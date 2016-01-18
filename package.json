@@ -1,0 +1,11 @@
+{
+  "name": "firstnodeapp",
+  "version": "1.0.0",
+  "description": "my first try in node js",
+  "main": "server.js",
+  "dependencies" : {
+  	"express":"*"
+  },
+  "author": "Ahmad Sakhleh",
+  "license": "ISC"
+}
