@@ -1,6 +1,8 @@
 var express = require('express'),
 	app = express();
 
+var PORT = process.env.PORT || 3000;
+
 var articles = require('./controllers/articles')
 
 // CRUD
@@ -46,5 +48,5 @@ app.get('articles/:articleId/comments',notImplemented);
 app.get('articles/:articleId/comments/:commentId',notImplemented);
 
 
-app.listen(8000);
+app.listen(PORT);
 
